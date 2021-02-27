@@ -127,6 +127,11 @@ margin:40px 60px 10px;
 
   .profile-card{
     position: absolute;
-    left: 36%;
+    left: 10%;
+    top: 25%;
+    height: 200px;
+  width: 40%;
+
+
   }
 }
