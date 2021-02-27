@@ -100,23 +100,40 @@ margin:40px 60px 10px;
 .intro{
     text-align: center;
     height: 100%;
-    padding:0;
+    padding:10px 30px 10px;
     padding-top: 600px;
     font-size: 10px;
-    margin-left: 0;
+    margin-left: 100px;
     background-color: #E6DACE;
+    width: 50%;
+    text-align: center;
+
+  }
+
+  .content{
+    margin-left: 50%;
+    margin-top: 5%;
+    padding-top: 10%;
+    width: auto;
+    height: auto;
   }
 
   .helo{
     font-size: 50px;
+    width: auto;
+    height: auto;
   }
   .sub-title{
     font-size: 15px;
+    width: 300px;
+    height: auto;
+    text-align: left;
   }
 
   .over-view{
     text-align: left;
     padding: 30px;
+      width: 300px;
   }
 
   .navbar{
@@ -127,10 +144,12 @@ margin:40px 60px 10px;
 
   .profile-card{
     position: absolute;
-    left: 36%;
-    top: 10%;
+    left: 40%;
+    top: 12%;
 
-
+ .btn-light{
+  margin-top: 30px;
+}
 
   }
 }
