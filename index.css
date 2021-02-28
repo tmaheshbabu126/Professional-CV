@@ -23,6 +23,11 @@ body{
 
 .card{
   width: 18rem;
+
+}
+
+.card-text{
+  font-family: 'Roboto', sans-serif;
 }
 
 .profile-card{
@@ -33,13 +38,60 @@ body{
   text-align: center;
 
 }
-
-.profile-pic{
-  width: 50%;
- height: auto;
-margin:40px 60px 10px;
+.card-foot{
+margin-top: 20px;
 }
 
+.profile-pic{
+  width: 200px;
+  height: 200px;
+margin:30px 0px 0px 40px;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  margin-left: : 30px
+}
+
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+
+}
+
+.icons{
+  margin-left: 10px;
+}
+.line-divider{
+  width:30%;
+  margin-left:35%;
+border-top: 2px solid #78c4d4;
+}
+
+.card-body{
+  padding: 0;
+  margin-top: 20%;
+}
 .intro{
   height: 150%;
   background-color: white;
@@ -120,6 +172,7 @@ margin:40px 60px 10px;
     width: auto;
     height: auto;
     font-size: 2rem;
+    padding-top: 50px;
   }
 
   .helo{
@@ -161,12 +214,12 @@ margin:40px 60px 10px;
   .profile-pic{
     width: 400px;
     height: 400px;
-  margin:10px 0px 10px 100px;
+  margin:40px 0px 0px 100px;
   }
 
   .card{
     width: 600px;
-    height: 750px;
+    height: auto;
   }
 .card-title{
   font-size: 4rem;
@@ -175,6 +228,15 @@ margin:40px 60px 10px;
 .card-text{
   font-size: 2rem;
 }
+.card-body{
+
+  margin-top: 10%;
+}
+.card-foot{
+  font-size: 3rem;
+  margin: : 30%;
+}
+
 
 
 }
