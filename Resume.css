@@ -102,9 +102,36 @@ background-image: none;
 .Resume_heading{
     margin-top: 10%;
   color: black;
+
 }
 
+.resume-button{
+  margin: 0;
+  padding: none;
+  height: auto;
+  width: auto;
+}
 .page{
-  height: 942px;
+  height: 1000px;
+}
+
+.col{
+
+  padding-top: 10%;
+
+}
+.btn{
+  margin: 10%;
+}
+
+.page, .page3{
+  height: auto;
+       width: 895px;
+}
+.page2,.page4,.page5{
+   width: 895px;
+}
+.page-data1{
+  width: 500px;
 }
 }
