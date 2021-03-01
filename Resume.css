@@ -20,13 +20,18 @@ width: 100%; /* Full width */
 .Resume_heading{
 
   margin-top: 5%;
-  margin-left: 40%;
+  /* margin-left: 40%; */
   height: auto;
   width: 200px;
   color: white;
+  
+}
+.Resume_heading, .btn{
+  margin-top: 12%;
+  margin-left: 180px;
 }
 
-.page {
+.page, .page2, .page3, .page4, .page5{
   height: 842px;
        width: 695px;
        /* to centre page on screen*/
@@ -37,17 +42,54 @@ width: 100%; /* Full width */
        padding: 40px 20px 20px 30px;
 }
 
-ul {
+.page2{
+    height: auto;
+}
+.page4{
+  height: auto;
+}
+.page5{
+  height: auto;
+  margin-bottom: 50px;
+}
+
+/* Style buttons */
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+
+
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+.ad-em-nu-list {
     list-style-type: none;
     padding: 0;
 
 }
 p{
-  font-size: 0.8rem;
+  font-size: 15px;
 }
+h6{
+  font-weight: bold;
+}
+.Education-data{
+    font-size: 12px;
 
+}
 .icon{
   color: #0066FF;
+}
+
+.level{
+  height: 5px;
 }
 
 
