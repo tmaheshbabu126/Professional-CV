@@ -24,7 +24,7 @@ width: 100%; /* Full width */
   height: auto;
   width: 200px;
   color: white;
-  
+
 }
 .Resume_heading, .btn{
   margin-top: 12%;
@@ -102,5 +102,9 @@ background-image: none;
 .Resume_heading{
     margin-top: 10%;
   color: black;
+}
+
+.page{
+  height: 942px;
 }
 }
